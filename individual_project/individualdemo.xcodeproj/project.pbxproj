@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D3FEA62AEF077E00D9925C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D3FEA52AEF077E00D9925C /* Assets.xcassets */; };
+		15D3FEA92AEF077E00D9925C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D3FEA72AEF077E00D9925C /* MainMenu.xib */; };
+		15D3FEB42AEF078E00D9925C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3FEB32AEF078E00D9925C /* Cocoa.framework */; };
+		15D3FEB62AEF079300D9925C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3FEB52AEF079300D9925C /* OpenGL.framework */; };
+		15D3FEB82AEF079E00D9925C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3FEB72AEF079E00D9925C /* AVFoundation.framework */; };
+		15D3FEBA2AEF07D200D9925C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15D3FEB92AEF07D200D9925C /* main.cpp */; };
+		15D3FECB2AEF098000D9925C /* yssimplesound_macosx_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D3FEC32AEF098000D9925C /* yssimplesound_macosx_objc.m */; };
+		15D3FECC2AEF098000D9925C /* ysglfontdata.c in Sources */ = {isa = PBXBuildFile; fileRef = 15D3FEC42AEF098000D9925C /* ysglfontdata.c */; };
+		15D3FECD2AEF098000D9925C /* fssimplewindowcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15D3FEC62AEF098000D9925C /* fssimplewindowcpp.cpp */; };
+		15D3FECE2AEF098000D9925C /* fssimplewindowobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D3FEC82AEF098000D9925C /* fssimplewindowobjc.m */; };
+		15D3FECF2AEF098000D9925C /* yssimplesound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15D3FEC92AEF098000D9925C /* yssimplesound.cpp */; };
+		15D3FEF02AF1B32C00D9925C /* demo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 15D3FEEC2AF1B32C00D9925C /* demo2.wav */; };
+		15D3FEF12AF1B32C00D9925C /* demo1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 15D3FEED2AF1B32C00D9925C /* demo1.wav */; };
+		15D3FEF22AF1B32C00D9925C /* demo3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 15D3FEEE2AF1B32C00D9925C /* demo3.wav */; };
+		15D3FEF32AF1B32C00D9925C /* demo4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 15D3FEEF2AF1B32C00D9925C /* demo4.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15D3FE9F2AEF077B00D9925C /* individualdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = individualdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D3FEA52AEF077E00D9925C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D3FEA82AEF077E00D9925C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		15D3FEAC2AEF077E00D9925C /* individualdemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = individualdemo.entitlements; sourceTree = "<group>"; };
+		15D3FEB32AEF078E00D9925C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		15D3FEB52AEF079300D9925C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		15D3FEB72AEF079E00D9925C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		15D3FEB92AEF07D200D9925C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		15D3FEC32AEF098000D9925C /* yssimplesound_macosx_objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = yssimplesound_macosx_objc.m; path = ../../../yssimplesound_macosx_objc.m; sourceTree = "<group>"; };
+		15D3FEC42AEF098000D9925C /* ysglfontdata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ysglfontdata.c; path = ../../../ysglfontdata.c; sourceTree = "<group>"; };
+		15D3FEC52AEF098000D9925C /* fssimplewindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fssimplewindow.h; path = ../../../fssimplewindow.h; sourceTree = "<group>"; };
+		15D3FEC62AEF098000D9925C /* fssimplewindowcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fssimplewindowcpp.cpp; path = ../../../fssimplewindowcpp.cpp; sourceTree = "<group>"; };
+		15D3FEC72AEF098000D9925C /* ysglfontdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ysglfontdata.h; path = ../../../ysglfontdata.h; sourceTree = "<group>"; };
+		15D3FEC82AEF098000D9925C /* fssimplewindowobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fssimplewindowobjc.m; path = ../../../fssimplewindowobjc.m; sourceTree = "<group>"; };
+		15D3FEC92AEF098000D9925C /* yssimplesound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = yssimplesound.cpp; path = ../../../yssimplesound.cpp; sourceTree = "<group>"; };
+		15D3FECA2AEF098000D9925C /* yssimplesound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = yssimplesound.h; path = ../../../yssimplesound.h; sourceTree = "<group>"; };
+		15D3FEEC2AF1B32C00D9925C /* demo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = demo2.wav; sourceTree = "<group>"; };
+		15D3FEED2AF1B32C00D9925C /* demo1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = demo1.wav; sourceTree = "<group>"; };
+		15D3FEEE2AF1B32C00D9925C /* demo3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = demo3.wav; sourceTree = "<group>"; };
+		15D3FEEF2AF1B32C00D9925C /* demo4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = demo4.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D3FE9C2AEF077B00D9925C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D3FEB82AEF079E00D9925C /* AVFoundation.framework in Frameworks */,
+				15D3FEB62AEF079300D9925C /* OpenGL.framework in Frameworks */,
+				15D3FEB42AEF078E00D9925C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D3FE962AEF077B00D9925C = {
+			isa = PBXGroup;
+			children = (
+				15D3FEA12AEF077B00D9925C /* individualdemo */,
+				15D3FEA02AEF077B00D9925C /* Products */,
+				15D3FEB22AEF078E00D9925C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15D3FEA02AEF077B00D9925C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D3FE9F2AEF077B00D9925C /* individualdemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D3FEA12AEF077B00D9925C /* individualdemo */ = {
+			isa = PBXGroup;
+			children = (
+				15D3FEED2AF1B32C00D9925C /* demo1.wav */,
+				15D3FEEC2AF1B32C00D9925C /* demo2.wav */,
+				15D3FEEE2AF1B32C00D9925C /* demo3.wav */,
+				15D3FEEF2AF1B32C00D9925C /* demo4.wav */,
+				15D3FEC52AEF098000D9925C /* fssimplewindow.h */,
+				15D3FEC62AEF098000D9925C /* fssimplewindowcpp.cpp */,
+				15D3FEC82AEF098000D9925C /* fssimplewindowobjc.m */,
+				15D3FEC42AEF098000D9925C /* ysglfontdata.c */,
+				15D3FEC72AEF098000D9925C /* ysglfontdata.h */,
+				15D3FEC32AEF098000D9925C /* yssimplesound_macosx_objc.m */,
+				15D3FEC92AEF098000D9925C /* yssimplesound.cpp */,
+				15D3FECA2AEF098000D9925C /* yssimplesound.h */,
+				15D3FEA52AEF077E00D9925C /* Assets.xcassets */,
+				15D3FEA72AEF077E00D9925C /* MainMenu.xib */,
+				15D3FEAC2AEF077E00D9925C /* individualdemo.entitlements */,
+				15D3FEB92AEF07D200D9925C /* main.cpp */,
+			);
+			path = individualdemo;
+			sourceTree = "<group>";
+		};
+		15D3FEB22AEF078E00D9925C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D3FEB72AEF079E00D9925C /* AVFoundation.framework */,
+				15D3FEB52AEF079300D9925C /* OpenGL.framework */,
+				15D3FEB32AEF078E00D9925C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D3FE9E2AEF077B00D9925C /* individualdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D3FEAF2AEF077E00D9925C /* Build configuration list for PBXNativeTarget "individualdemo" */;
+			buildPhases = (
+				15D3FE9B2AEF077B00D9925C /* Sources */,
+				15D3FE9C2AEF077B00D9925C /* Frameworks */,
+				15D3FE9D2AEF077B00D9925C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = individualdemo;
+			productName = individualdemo;
+			productReference = 15D3FE9F2AEF077B00D9925C /* individualdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D3FE972AEF077B00D9925C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					15D3FE9E2AEF077B00D9925C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 15D3FE9A2AEF077B00D9925C /* Build configuration list for PBXProject "individualdemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D3FE962AEF077B00D9925C;
+			productRefGroup = 15D3FEA02AEF077B00D9925C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D3FE9E2AEF077B00D9925C /* individualdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D3FE9D2AEF077B00D9925C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D3FEA62AEF077E00D9925C /* Assets.xcassets in Resources */,
+				15D3FEF22AF1B32C00D9925C /* demo3.wav in Resources */,
+				15D3FEF02AF1B32C00D9925C /* demo2.wav in Resources */,
+				15D3FEA92AEF077E00D9925C /* MainMenu.xib in Resources */,
+				15D3FEF32AF1B32C00D9925C /* demo4.wav in Resources */,
+				15D3FEF12AF1B32C00D9925C /* demo1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D3FE9B2AEF077B00D9925C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D3FECB2AEF098000D9925C /* yssimplesound_macosx_objc.m in Sources */,
+				15D3FECD2AEF098000D9925C /* fssimplewindowcpp.cpp in Sources */,
+				15D3FECE2AEF098000D9925C /* fssimplewindowobjc.m in Sources */,
+				15D3FECC2AEF098000D9925C /* ysglfontdata.c in Sources */,
+				15D3FEBA2AEF07D200D9925C /* main.cpp in Sources */,
+				15D3FECF2AEF098000D9925C /* yssimplesound.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15D3FEA72AEF077E00D9925C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D3FEA82AEF077E00D9925C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D3FEAD2AEF077E00D9925C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15D3FEAE2AEF077E00D9925C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15D3FEB02AEF077E00D9925C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = individualdemo/individualdemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.engineering-computation.individualdemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		15D3FEB12AEF077E00D9925C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = individualdemo/individualdemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.engineering-computation.individualdemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D3FE9A2AEF077B00D9925C /* Build configuration list for PBXProject "individualdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D3FEAD2AEF077E00D9925C /* Debug */,
+				15D3FEAE2AEF077E00D9925C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D3FEAF2AEF077E00D9925C /* Build configuration list for PBXNativeTarget "individualdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D3FEB02AEF077E00D9925C /* Debug */,
+				15D3FEB12AEF077E00D9925C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D3FE972AEF077B00D9925C /* Project object */;
+}
